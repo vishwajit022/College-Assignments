@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Input Types Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        
+        h2 {
+            margin-bottom: 10px;
+        }
+        
+        input {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: 100%;
+            box-sizing: border-box;
+            margin-bottom: 15px;
+            font-size: 14px;
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+        
+        input[type="date"],
+        input[type="time"],
+        input[type="email"],
+        input[type="search"] {
+            width: 300px;
+            /* Adjust the width as needed */
+        }
+        
+        input:focus {
+            border-color: dodgerblue;
+            box-shadow: 0 0 5px dodgerblue;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Date Input:</h2>
+    <input type="date" id="dateInput">
+
+    <h2>Time Input:</h2>
+    <input type="time" id="timeInput">
+
+    <h2>Email Input:</h2>
+    <input type="email" id="emailInput">
+
+    <h2>Search Input:</h2>
+    <input type="search" id="searchInput">
+</body>
+
+</html>
