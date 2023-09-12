@@ -1,5 +1,20 @@
 from collections import deque
 
+
+
+
+
+
+
+# Threw an Error
+
+
+
+
+
+
+
+
 # Represents the state of the jugs (x, y), where x is the 4-gallon jug and y is the 3-gallon jug
 class State:
     def init(self, x, y):
